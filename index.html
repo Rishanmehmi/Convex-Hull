@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convex Hull</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <link rel="icon" href="thanks.png" type="image/x-icon" >
+    <script src="main.js"></script>
+    </head>
+<body>
+    <div class="card1">
+    <input type="number" id="StriX" placeholder="abcissa" style="top: 25px;left: 25px;"><br>
+    <input type="number" id="StarY" placeholder="ordinate"style="top: 25px;left: 225px;"><br>
+    <br>
+    <input id="stringtillnow" placeholder="Co-ordinates added" style="top: 100px;left: 25px;width: 85%;" >
+    <br>
+    <button onclick="getString();">Enter Co-ordinates</button><br>
+    </div>
+    <div class="card1">
+       <span style="margin-left: 125px;font-weight: normal;"> Convex Hull  </span>
+    <button onclick="ConvexHullCoordinates();" style="margin-top: 15px;">Hover Me</button><br>
+ Co-ordinates: <input  id="co-ordinates" style="position: relative;"><br>
+ Points: <input type="number" id="noofpoints" style="position: relative;margin-top: 20px;"><br>
+  </div>
+</body>
+</html>
