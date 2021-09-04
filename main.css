@@ -60,3 +60,10 @@ body
     box-shadow: 0.5px 1.5px 1.5px 1.5px rgb(41, 28, 221);
     background-color: rgb(30, 30, 156) ;
 }
+@media only screen and (max-width:600px ) {
+    .card1
+    {
+        width: 92%;
+        margin-left: 2%;
+    }
+}
